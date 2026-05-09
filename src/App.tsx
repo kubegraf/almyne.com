@@ -1,29 +1,27 @@
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import ProductStory from "./components/ProductStory";
-import Features from "./components/Features";
-import HowItWorks from "./components/HowItWorks";
-import SocialProof from "./components/SocialProof";
-import UseCases from "./components/UseCases";
-import Pricing from "./components/Pricing";
-import FinalCTA from "./components/FinalCTA";
-import Footer from "./components/Footer";
+import Header from "./components/Header";
+import WeekHero from "./components/WeekHero";
+import GentleCopy from "./components/GentleCopy";
+import OrbitTiles from "./components/OrbitTiles";
+import RhythmStory from "./components/RhythmStory";
+import FamilyView from "./components/FamilyView";
+import PriceLeaves from "./components/PriceLeaves";
+import LampCTA from "./components/LampCTA";
+import LightFooter from "./components/LightFooter";
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-bg text-ink overflow-x-clip">
-      <Navbar />
+    <div className="min-h-screen paper text-ink">
+      <Header />
       <main>
-        <Hero />
-        <ProductStory />
-        <Features />
-        <HowItWorks />
-        <SocialProof />
-        <UseCases />
-        <Pricing />
-        <FinalCTA />
+        <WeekHero />
+        <GentleCopy />
+        <OrbitTiles />
+        <RhythmStory />
+        <FamilyView />
+        <PriceLeaves />
+        <LampCTA />
       </main>
-      <Footer />
+      <LightFooter />
     </div>
   );
 }
